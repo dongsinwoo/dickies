@@ -1155,7 +1155,6 @@
     flex-direction: column;
   }
   .section3 .sec3-head{
-    margin-left: 0;
     margin-bottom: 8rem;
   }
   .section3 .sec3-flexbox{
@@ -1224,10 +1223,12 @@
   .swiper-container .swiper-mask .item{
     position: relative;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
   }
   .swiper-container .swiper-mask .item a img{
-    object-position: 35% 0;
+    object-position: 40% 0;
+    object-fit: cover;
+    
   }
   .swiper-container .swiper-mask .item .main-btn{
     position: absolute;
@@ -1262,7 +1263,7 @@
   }
   .swiper-container .swiper-mask .item .main-btn:hover{
     border: #003768 3px solid;
-    color: #343434;
+    color: #fff;
   }
   .swiper-container .swiper-mask .item .main-btn:hover::before{
     left: 0;
@@ -1274,8 +1275,8 @@
   .swiper-hedes{
     position: absolute;
     left: 5%;
-    top: 30%;
-    /* transform: translateY(-30%); */
+    top: 50%;
+    transform: translateY(-50%);
   }
   .swiper-hedes li{
     margin-bottom: 1rem;
