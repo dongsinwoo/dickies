@@ -8,7 +8,6 @@
 
 body{
   overscroll-behavior: none;
-  overflow:scroll; 
   -webkit-overflow-scrolling:touch;
 }
 
