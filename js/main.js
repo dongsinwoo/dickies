@@ -272,6 +272,10 @@ window.addEventListener("resize",()=>{
   itemWidth = items[2].clientWidth
   itemWidth = items[3].clientWidth
   itemWidth = items[4].clientWidth
+  translate=0;
+  swiCount=0;
+  checs[0].checked = true;
+  swMask.style.transform = `translateX(${translate}px)`
 })
 
 /**hamberger */
